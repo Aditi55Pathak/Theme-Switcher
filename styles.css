@@ -1,0 +1,82 @@
+/* Default Light Theme */
+body.light {
+    background-color: #f0f0f0;
+    color: #333;
+    background-image: url('white.jpg'); /* Placeholder for light theme image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Dark Theme */
+body.dark {
+    background-color: #333;
+    color: #f0f0f0;
+    background-image: url('black.jpg'); /* Placeholder for dark theme image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Additional Themes */
+body.blue {
+    background-color: #007bff;
+    color: #fff;
+    background-image: url('blue.jpg'); /* Placeholder for blue theme image */
+    background-size: cover;
+    background-position: center;
+}
+
+body.green {
+    background-color: #28a745;
+    color: #fff;
+    background-image: url('green.jpg'); /* Placeholder for green theme image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* General styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.5s, color 0.5s, background-image 0.5s;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent to show background image */
+    transition: background-color 0.5s, color 0.5s;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button:focus {
+    outline: none;
+}
+
+.theme-buttons {
+    margin-top: 20px;
+}
+
+.theme-buttons button {
+    margin: 5px;
+}
