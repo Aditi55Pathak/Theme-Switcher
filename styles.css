@@ -2,7 +2,7 @@
 body.light {
     background-color: #f0f0f0;
     color: #333;
-    background-image: url('white.jpg'); /* Placeholder for light theme image */
+    background-image: url('images\white.jpg'); /* Placeholder for light theme image */
     background-size: cover;
     background-position: center;
 }
@@ -11,7 +11,7 @@ body.light {
 body.dark {
     background-color: #333;
     color: #f0f0f0;
-    background-image: url('black.jpg'); /* Placeholder for dark theme image */
+    background-image: url('images/black.jpg'); /* Placeholder for dark theme image */
     background-size: cover;
     background-position: center;
 }
@@ -20,7 +20,7 @@ body.dark {
 body.blue {
     background-color: #007bff;
     color: #fff;
-    background-image: url('blue.jpg'); /* Placeholder for blue theme image */
+    background-image: url('images/blue.jpg'); /* Placeholder for blue theme image */
     background-size: cover;
     background-position: center;
 }
@@ -28,7 +28,7 @@ body.blue {
 body.green {
     background-color: #28a745;
     color: #fff;
-    background-image: url('green.jpg'); /* Placeholder for green theme image */
+    background-image: url('images/green.jpg'); /* Placeholder for green theme image */
     background-size: cover;
     background-position: center;
 }
